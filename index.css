@@ -9,11 +9,14 @@ h1 {
   text-align: center;
   font-size: 100px;
   letter-spacing: 17px;
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 a:visited {
   color: rgb(0, 0, 0); /* 이미 방문한 링크의 색상을 변경 */
-  text-decoration: none; /* 이미 방문한 링크의 밑줄 제거 */
+  text-decoration: line-through; /* 이미 방문한 링크의 밑줄 제거 */
   background-color: rgba(194, 219, 218, 0.7);
 }
 ol {
@@ -21,4 +24,7 @@ ol {
   font-size: 20px;
   border: 3px dotted black;
   background-color: rgb(252, 252, 207);
+  font-family: "Mali", cursive;
+  font-weight: 500;
+  font-style: italic;
 }
